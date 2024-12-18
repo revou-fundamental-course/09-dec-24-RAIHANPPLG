@@ -1,0 +1,112 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 1.5rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.content-left, .content-right {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-left img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.content-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+.content-right input,
+.content-right select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.content-right button {
+    padding: 0.7rem;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-right button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 2rem;
+}
